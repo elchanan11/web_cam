@@ -4,9 +4,6 @@
 
 This demo shows how we can use a pre made machine learning solution to recognize pixels in an image that belong to a human body and even what sub parts of the body they belong to (e.g. an arm, leg, head etc). We can get data for all pixels in the image which is super useful as then you could do things like blur the background to get a cool depth of field effect, or maybe you want to blur just the face to retain user privacy. The possibilities are endless.
 
-For this demo we are loading a bodypix model that uses the MobileNet architecture, to recognize the various body parts it has already been taught to find.
-
-If you are feeling particularly confident you can check out our [GitHub documentation](https://github.com/tensorflow/tfjs-models/tree/master/body-pix) which goes into much more detail for customising various parameters to tailor performance to your needs.
 
 ## What's in all the files?
 
